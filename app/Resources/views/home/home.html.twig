@@ -1,0 +1,10 @@
+{% extends 'templates/homepage.html.twig' %}
+
+{% block content %}
+    <h1>Homepage.</h1>
+    <ul>
+        <li>
+            <a href="{{ path('fos_user_security_login') }}">Login</a>
+        </li>
+    </ul>
+{% endblock %}
